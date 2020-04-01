@@ -15,12 +15,24 @@ However, an interesting finding with the dynamic Milieu measure is that there is
 # Data
 In order to create a dynamic measure of racial and ethnic context based on individual milieus, we rely on location data collected for over 400 users of a smartphone application, which automatically records users’ latitude and longitude based on Global Positioning System (GPS) hardware embedded in their mobile phones. Specifically, we obtain a sample of users of the OpenPaths application, developed and maintained by the Research and Development Lab at the New York Times Company. Our sample of OpenPaths users includes 2.6 million data points from 446 individuals. The number of GPS points for each individual range from 1 to over 111,000 with the median number of coordinate pairs being about 3,200. On average, we have about a year’s worth of geolocation for the individuals (364.4 days) with a maximum of over four years’ worth of data. The detailed information about the Milieu data can be found from [here](http://www.andrewreeves.org/papers/context.pdf).
 
-# Racial experience
+ # Dependent variables
+* Direct measure for racial attitudes: Racial Resentment, Views on the Confederate Flag, Views on Immigration Levels, Views on Whether People Can Be Trusted
+
+* Inirect measure for racial attitudes: Whether New Prisons Should be Built, Views on buidling basketball
+
+ # Independent variables
+* Pct. Non-White (Dynamic measure)
+* Pct. Non-White (Census Tract measure)
+* Pct. Non-White (County measure)
+* Pct. Non-White (State measure)
+* Diversity measure (HHI measure)
+
+
+# Racial experience measure: Pct. Non-White (Dynamic measure)
 
 
 
 # Measurement for racial diversity 
-<a href="https://www.codecogs.com/eqnedit.php?latex=E&space;=&space;\sum_{r=1}^{R}&space;x_{r}&space;ln&space;\frac{1}{&space;\pi_{r}&space;}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?E&space;=&space;\sum_{r=1}^{R}&space;x_{r}&space;ln&space;\frac{1}{&space;\pi_{r}&space;}" title="E = \sum_{r=1}^{R} x_{r} ln \frac{1}{ \pi_{r} }" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=HHI=\sum_{i=1}^{\text{Number&space;of&space;groups}}&space;{\text{Size&space;of&space;a&space;group&space;as&space;a&space;percent&space;of&space;population}_i&space;}^2" target="_blank"><img src="https://latex.codecogs.com/gif.latex?HHI=\sum_{i=1}^{\text{Number&space;of&space;groups}}&space;{\text{Size&space;of&space;a&space;group&space;as&space;a&space;percent&space;of&space;population}_i&space;}^2" title="HHI=\sum_{i=1}^{\text{Number of groups}} {\text{Size of a group as a percent of population}_i }^2" /></a>
 
-
-<a href="https://www.codecogs.com/eqnedit.php?latex=\pi_{r}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\pi_{r}" title="\pi_{r}" /></a> is the propotion of the population in racial group. E can be maximized if individuals are evenly distributed among R groups <a href="https://www.codecogs.com/eqnedit.php?latex=\pi_{r}&space;=&space;\frac{1}{R}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\pi_{r}&space;=&space;\frac{1}{R}" title="\pi_{r} = \frac{1}{R}" /></a> for all r. The higher E, the more diverse an area is. P is total population of neighborhood n or city c and E is the entropy of n or c. H varies from 0, where all neighborhoods have same composition as the entire city, to 1, where all neighbors have only one group.
+HHI can be maximized if individuals are evenly distributed among R groups. The higher HHI, the more diverse an area is. HHI varies from 0, where all neighborhoods have same composition as the entire city, to 1, where all neighbors have only one group.
