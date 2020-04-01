@@ -29,8 +29,10 @@ In order to create a dynamic measure of racial and ethnic context based on indiv
 
 
 # Racial experience measure: Pct. Non-White (Dynamic measure)
+The below plot shows the distribution of their racial experience (Census tract-level non-white population based on GPS coordinates from cell phone application). Unlike static measure based on Zipcode or street address, dynamic measures contrain ample information about user's contextual racial experience. The red line in the plot is the degree of percent non-white based on Zipcode of a user. On the other hand, the density plot shows that how each individuals have stayed in different places and have more diverse racial experience. The two measures (dynamic and static) are surprisingly different. 
+
 <p align="center">
-<img src="graphs/Dynamic.png" width="400" //>
+<img src="graphs/Dynamic.png" width="600" //>
 </p>
 
 
@@ -42,5 +44,5 @@ In order to create a dynamic measure of racial and ethnic context based on indiv
 HHI can be maximized if individuals are evenly distributed among R groups. The higher HHI, the more diverse an area is. HHI varies from 0, where all neighborhoods have same composition as the entire city, to 1, where all neighbors have only one group.
 
 <p align="center">
-<img src="graphs/HHI.png" width="400" //>
+<img src="graphs/HHI.png" width="600" //>
 </p>
