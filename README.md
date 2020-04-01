@@ -10,7 +10,7 @@ However, an interesting finding with the dynamic Milieu measure is that there is
 
 # Project goals
 1) Does individualized racial and ethnic experience (using dynamic measures of racial context) explain individuals' attitudes?
-2) Develop new measure of raicial diverity exerience (using Herfindahl index(HHI)) and compare the measure with conventional static measure.
+2) Develop new measures of raicial diverity exerience (e.g. using Herfindahl index(HHI)) and compare the measure with conventional static measure.
 
 # Data
 In order to create a dynamic measure of racial and ethnic context based on individual milieus, we rely on location data collected for over 400 users of a smartphone application, which automatically records users’ latitude and longitude based on Global Positioning System (GPS) hardware embedded in their mobile phones. Specifically, we obtain a sample of users of the OpenPaths application, developed and maintained by the Research and Development Lab at the New York Times Company. Our sample of OpenPaths users includes 2.6 million data points from 446 individuals. The number of GPS points for each individual range from 1 to over 111,000 with the median number of coordinate pairs being about 3,200. On average, we have about a year’s worth of geolocation for the individuals (364.4 days) with a maximum of over four years’ worth of data. The detailed information about the Milieu data can be found from [here](http://www.andrewreeves.org/papers/context.pdf).
@@ -29,10 +29,18 @@ In order to create a dynamic measure of racial and ethnic context based on indiv
 
 
 # Racial experience measure: Pct. Non-White (Dynamic measure)
+<p align="center">
+<img src="Dynamic.png" width="400" //>
+</p>
 
 
-
-# Measurement for racial diversity 
-<a href="https://www.codecogs.com/eqnedit.php?latex=HHI=\sum_{i=1}^{\text{Number&space;of&space;groups}}&space;{\text{Size&space;of&space;a&space;group&space;as&space;a&space;percent&space;of&space;population}_i&space;}^2" target="_blank"><img src="https://latex.codecogs.com/gif.latex?HHI=\sum_{i=1}^{\text{Number&space;of&space;groups}}&space;{\text{Size&space;of&space;a&space;group&space;as&space;a&space;percent&space;of&space;population}_i&space;}^2" title="HHI=\sum_{i=1}^{\text{Number of groups}} {\text{Size of a group as a percent of population}_i }^2" /></a>
+# Measurement for racial diversity (i.e. racial sergregation)
+<p align="center">
+ <a href="https://www.codecogs.com/eqnedit.php?latex=HHI=\sum_{i=1}^{\text{Number&space;of&space;groups}}&space;{\text{Size&space;of&space;a&space;group&space;as&space;a&space;percent&space;of&space;population}_i&space;}^2" target="_blank"><img src="https://latex.codecogs.com/gif.latex?HHI=\sum_{i=1}^{\text{Number&space;of&space;groups}}&space;{\text{Size&space;of&space;a&space;group&space;as&space;a&space;percent&space;of&space;population}_i&space;}^2" title="HHI=\sum_{i=1}^{\text{Number of groups}} {\text{Size of a group as a percent of population}_i }^2" /></a>
+ </p>
 
 HHI can be maximized if individuals are evenly distributed among R groups. The higher HHI, the more diverse an area is. HHI varies from 0, where all neighborhoods have same composition as the entire city, to 1, where all neighbors have only one group.
+
+<p align="center">
+<img src="Dynamic.png" width="400" //>
+</p>
