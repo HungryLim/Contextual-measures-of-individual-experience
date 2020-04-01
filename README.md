@@ -41,7 +41,10 @@ The below plot shows the distribution of their racial experience (Census tract-l
  <a href="https://www.codecogs.com/eqnedit.php?latex=HHI=\sum_{i=1}^{\text{Number&space;of&space;groups}}&space;{\text{Size&space;of&space;a&space;group&space;as&space;a&space;percent&space;of&space;population}_i&space;}^2" target="_blank"><img src="https://latex.codecogs.com/gif.latex?HHI=\sum_{i=1}^{\text{Number&space;of&space;groups}}&space;{\text{Size&space;of&space;a&space;group&space;as&space;a&space;percent&space;of&space;population}_i&space;}^2" title="HHI=\sum_{i=1}^{\text{Number of groups}} {\text{Size of a group as a percent of population}_i }^2" /></a>
  </p>
 
-HHI can be maximized if individuals are evenly distributed among R groups. The higher HHI, the more diverse an area is. HHI varies from 0, where all neighborhoods have same composition as the entire city, to 1, where all neighbors have only one group.
+HHI can be maximized if individuals are evenly distributed among R groups. The higher HHI, the more diverse an area is. HHI varies from 0, where all neighborhoods have same composition as the entire city, to 1, where all neighbors have only one group. HHI can be interpreted as a diversity measure and a segregation measure (1 - HHI = segregation measure). 
+
+
+The below plot shows that how racial diversity (i.e. segregation measure). Rather than using the percent non-white of census track, I generated a new measure of segregation measure. This measure can be useful where a researcher wants to know not just non-white experience, but the degree of experience from racial diversity or segregation. Again the red line is a user's measure for degree of racial segregation based on Zipcode. In this time, the dotted line is the measure for the weighted and aggregated experience of racial segregation.
 
 <p align="center">
 <img src="graphs/HHI.png" width="600" //>
