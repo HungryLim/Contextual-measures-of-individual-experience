@@ -30,7 +30,7 @@ In order to create a dynamic measure of racial and ethnic context based on indiv
 
 # Racial experience measure: Pct. Non-White (Dynamic measure)
 <p align="center">
-<img src="Dynamic.png" width="400" //>
+<img src="graphs/Dynamic.png" width="400" //>
 </p>
 
 
@@ -42,5 +42,5 @@ In order to create a dynamic measure of racial and ethnic context based on indiv
 HHI can be maximized if individuals are evenly distributed among R groups. The higher HHI, the more diverse an area is. HHI varies from 0, where all neighborhoods have same composition as the entire city, to 1, where all neighbors have only one group.
 
 <p align="center">
-<img src="Dynamic.png" width="400" //>
+<img src="graphs/HHI.png" width="400" //>
 </p>
