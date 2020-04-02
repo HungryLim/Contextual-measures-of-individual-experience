@@ -60,16 +60,16 @@ The below plot shows that how racial diversity (i.e. segregation measure). Rathe
 # Results
 
 <p align="center">
-<img src="graphs/recent_t.png" width="600" //>
+<img src="graphs/recent_t.PNG" width="600" //>
 </p>
 
 
 <p align="center">
-<img src="graphs/hhi_t.png" width="600" //>
+<img src="graphs/hhi_t.PNG" width="600" //>
 </p>
 
 <p align="center">
-<img src="graphs/Rplot03.png" width="600" //>
+<img src="graphs/Rplot03.png" width="800" //>
 </p>
 
 while the plots in Figure 2 are informative of a mismatch between the contexts cap-
@@ -87,7 +87,7 @@ that an individual experiences throughout his or her daily life, Census tract me
 best, county measures perform second best, and state measures perform the worst.
 
 <p align="center">
-<img src="graphs/mismeasure.png" width="600" //>
+<img src="graphs/mismeasure.png" width="800" //>
 </p>
 
 
@@ -96,7 +96,7 @@ To determine the factors most associated with these mismatches, we regressed eac
 In addition to these racial differences in mismeasurement, the results of Table \ref{tab:differences} indicate that a few other covariates are associated with measurement error. Interestingly, education levels are associated with better (column one) and worse (column three) measurements of the percentage of non-white individuals that one encounters. Additionally, using an individual's Census tract of residence tends to mismeasure the percentage of non-white individuals that Democrats encounter.
 
 <p align="center">
-<img src="graphs/diff_measure_t.png" width="600" //>
+<img src="graphs/diff_measure_t.PNG" width="600" //>
 </p>
 
 This project is collaborated with [Andrew Reeves](http://www.andrewreeves.org/), [Steven Webster](http://www.stevenwwebster.com/), and [Ryan Moore](http://www.ryantmoore.org/).
