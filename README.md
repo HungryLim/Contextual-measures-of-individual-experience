@@ -96,7 +96,7 @@ To determine the factors most associated with these mismatches, we regressed eac
 In addition to these racial differences in mismeasurement, the results of Table \ref{tab:differences} indicate that a few other covariates are associated with measurement error. Interestingly, education levels are associated with better (column one) and worse (column three) measurements of the percentage of non-white individuals that one encounters. Additionally, using an individual's Census tract of residence tends to mismeasure the percentage of non-white individuals that Democrats encounter.
 
 <p align="center">
-<img src="graphs/diff_measure_t.PNG" width="600" //>
+<img src="graphs/diff_measure_t.PNG" width="400" //>
 </p>
 
 This project is collaborated with [Andrew Reeves](http://www.andrewreeves.org/), [Steven Webster](http://www.stevenwwebster.com/), and [Ryan Moore](http://www.ryantmoore.org/).
