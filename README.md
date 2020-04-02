@@ -15,6 +15,12 @@ However, an interesting finding with the dynamic Milieu measure is that there is
 # Data
 In order to create a dynamic measure of racial and ethnic context based on individual milieus, we rely on location data collected for over 400 users of a smartphone application, which automatically records users’ latitude and longitude based on Global Positioning System (GPS) hardware embedded in their mobile phones. Specifically, we obtain a sample of users of the OpenPaths application, developed and maintained by the Research and Development Lab at the New York Times Company. Our sample of OpenPaths users includes 2.6 million data points from 446 individuals. The number of GPS points for each individual range from 1 to over 111,000 with the median number of coordinate pairs being about 3,200. On average, we have about a year’s worth of geolocation for the individuals (364.4 days) with a maximum of over four years’ worth of data. The detailed information about the Milieu data can be found from [here](http://www.andrewreeves.org/papers/context.pdf).
 
+<p align="center">
+<img src="graphs/millieu1.PNG" width="300" //>
+<img src="graphs/millieu2.PNG" width="300" //>
+</p>
+
+
  # Dependent variables
 * Direct measure for racial attitudes: Racial Resentment, Views on the Confederate Flag, Views on Immigration Levels, Views on Whether People Can Be Trusted
 
@@ -49,3 +55,48 @@ The below plot shows that how racial diversity (i.e. segregation measure). Rathe
 <p align="center">
 <img src="graphs/HHI.png" width="600" //>
 </p>
+
+
+# Results
+
+<p align="center">
+<img src="graphs/recent_t.png" width="600" //>
+</p>
+
+
+<p align="center">
+<img src="graphs/hhi_t.png" width="600" //>
+</p>
+
+<p align="center">
+<img src="graphs/Rplot03.png" width="600" //>
+</p>
+
+while the plots in Figure 2 are informative of a mismatch between the contexts cap-
+tured by our dynamic measure and those captured by static measures, they do nothing to indicate
+the degree of these mismatches nor the specific factors that are predictive of such mismatches.
+To better understand the degree to which our dynamic measure captures a different context than
+these commonly used static measures, we separately calculated the absolute difference between
+the percentage of non-white individuals in the context measured by our dynamic measure and the
+percentage of non-white individuals measured by the contexts captured by an individual's state,
+county, and Census tract of residence. The mean difference between our dynamic measure and an
+individual's state of residence is 12.43; the mean difference between our dynamic measure and one's
+county of residence is 10.31; finally, the difference between our dynamic measure and an individual's
+Census tract of residence is 7.1. This suggests that, in terms of accurately capturing the context
+that an individual experiences throughout his or her daily life, Census tract measures perform the
+best, county measures perform second best, and state measures perform the worst.
+
+<p align="center">
+<img src="graphs/mismeasure.png" width="600" //>
+</p>
+
+
+To determine the factors most associated with these mismatches, we regressed each of the difference measures described above on a series of political and sociodemographic characteristics. These measures include dummy variables for Democrats and Republicans, as well as measures of race, gender, age, educational attainment, and income. The results of these regressions are presented in Table \ref{tab:differences}. Most notable are the positive coefficients on our non-white dummy variable. This indicates that using either the state or county of residence as a proxy for social context is likely to yield larger mismeasurements of the percentage of non-white individuals that one sees for those individuals who \emph{are} non-white compared to those who are white. A similar relationship exists when comparing our dynamic measure of social context to one's Census tract of residence, though this relationship is not statistically significant at conventional levels. Models run measuring the real distance between our dynamic measure of social context and these static proxies suggest that using an individual's state of residence as a proxy underestimates the percentage of non-white people that non-white individuals see by $14\%$. Using the county of residence as a proxy underestimates the percentage of non-whites that non-white individuals encounter by nearly $10\%$.\footnote{These models can be found in Table \ref{tab:directional} in the Appendix.}
+
+In addition to these racial differences in mismeasurement, the results of Table \ref{tab:differences} indicate that a few other covariates are associated with measurement error. Interestingly, education levels are associated with better (column one) and worse (column three) measurements of the percentage of non-white individuals that one encounters. Additionally, using an individual's Census tract of residence tends to mismeasure the percentage of non-white individuals that Democrats encounter.
+
+<p align="center">
+<img src="graphs/diff_measure_t.png" width="600" //>
+</p>
+
+This project is collaborated with [Andrew Reeves](http://www.andrewreeves.org/), [Steven Webster](http://www.stevenwwebster.com/), and [Ryan Moore](http://www.ryantmoore.org/).
