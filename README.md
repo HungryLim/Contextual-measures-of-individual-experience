@@ -56,6 +56,8 @@ The below plot shows that how racial diversity (i.e. segregation measure). Rathe
 <img src="graphs/HHI.png" width="600" //>
 </p>
 
+# Method
+
 
 # Results
 
