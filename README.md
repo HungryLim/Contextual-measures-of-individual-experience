@@ -17,7 +17,8 @@ In order to create a dynamic measure of racial and ethnic context based on indiv
 
 <p align="center">
 <img src="graphs/millieu1.PNG" width="300" //>
-<img src="graphs/millieu2.PNG" width="300" //>
+<img src="graphs/dash.PNG" width="300" //>
+<img src="graphs/millieu2.PNG" width="290" //>
 </p>
 
 
